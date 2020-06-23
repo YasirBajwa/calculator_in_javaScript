@@ -18,7 +18,7 @@ body{
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     width: 260px;
-    height: 250px;
+    height: 300px;
     margin: 0 auto;
 }
 .result-section > input{
@@ -31,7 +31,9 @@ input{
     border: none;
     outline:none;
     font-size: 30px;
+    text-align: right;
 }
+
 
 button{
     width: 45px;

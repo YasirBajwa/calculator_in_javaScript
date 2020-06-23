@@ -12,35 +12,40 @@
 
     <div class="main-calculator">
      <div class="result-section">
-        <form>
+        
         <input type="numeric"  onkeypress="return onlyNumberKey(event)"   id="result"/>
-         </form>
+         
      </div>
      <div class="content">
          <div class="all-btn">
         <div class="btn">
-            <button>7</button>
-            <button>8</button>
-            <button>9</button>
-            <button>+</button>
+            <button onclick="getValue(7)">7</button>
+            <button onclick="getValue(8)">8</button>
+            <button onclick="getValue(9)">9</button>
+            <button onclick="getValue('+')">+</button>
         </div>
         <div>
-            <button>4</button>
-            <button>5</button>
-            <button>6</button>
-            <button>-</button>
+            <button onclick="getValue(4)">4</button>
+            <button onclick="getValue(5)">5</button>
+            <button onclick="getValue(6)">6</button>
+            <button onclick="getValue('-')">-</button>
         </div>
         <div>
-            <button>1</button>
-            <button>2</button>
-            <button>3</button>
-            <button>*</button>
+            <button onclick="getValue(1)"> 1</button>
+            <button onclick="getValue(2)">2</button>
+            <button onclick="getValue(3)">3</button>
+            <button onclick="getValue('*')">*</button>
         </div>
         <div>
-            <button>0</button>
-            <button>.</button>
-            <button>/</button>
+            <button onclick="getValue(0)">0</button>
+            <button onclick="getValue('.')">.</button>
+            <button onclick="getValue('/')">/</button>
             <button>=</button>
+        </div>
+        <div>
+            <button >C</button>
+            <button>%</button>
+           
         </div>
         </div>
      </div>
