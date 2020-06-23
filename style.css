@@ -27,10 +27,12 @@ body{
       background-color: red;
       border:red
 }
-input:active,
-input:focus{
-    border :2px solid red 
+input{
+    border: none;
+    outline:none;
+    font-size: 30px;
 }
+
 button{
     width: 45px;
     padding: 10px 10px;
@@ -40,7 +42,7 @@ button{
  text-align: center;
 }
 .all-btn{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 button{
     /* display:block; */
@@ -56,6 +58,13 @@ button{
     font-weight:bold;
     /* text-align: center; */
 }
-button :hover{
-    text-decoration: none;
+
+button{
+    
+    border: none;
+    outline:none;
+
+}
+button:hover{
+    cursor: pointer;
 }

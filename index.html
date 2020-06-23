@@ -12,8 +12,9 @@
 
     <div class="main-calculator">
      <div class="result-section">
-         <input type="text"  id="result"/>
-         
+        <form>
+        <input type="numeric"  onkeypress="return onlyNumberKey(event)"   id="result"/>
+         </form>
      </div>
      <div class="content">
          <div class="all-btn">
