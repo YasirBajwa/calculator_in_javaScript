@@ -1,0 +1,61 @@
+body{
+    background-color: grey;
+}
+.result-section{
+
+    border:2px solid red;
+    background-color: red;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    width: 260px;
+    height: 100px;
+    margin: 0 auto;
+}
+.content{
+    border:2px solid white;
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 260px;
+    height: 250px;
+    margin: 0 auto;
+}
+.result-section > input{
+      width: 97%;
+      height: 95px;
+      background-color: red;
+      border:red
+}
+input:active,
+input:focus{
+    border :2px solid red 
+}
+button{
+    width: 45px;
+    padding: 10px 10px;
+    margin:5px 2px 5px 5px;
+}
+.content{
+ text-align: center;
+}
+.all-btn{
+    margin-top: 15px;
+}
+button{
+    /* display:block; */
+  
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    /* color:; */
+    text-align:center;
+    text-decoration:none;
+    background:whitesmoke;
+    /* box-shadow: 0 0 3px gray; */
+    font-size:17px;
+    font-weight:bold;
+    /* text-align: center; */
+}
+button :hover{
+    text-decoration: none;
+}
