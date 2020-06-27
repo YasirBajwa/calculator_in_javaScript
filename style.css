@@ -1,5 +1,16 @@
 body{
-    background-color: grey;
+    /* background-color: grey; */
+    background: url('img1.jpeg') no-repeat center center fixed;
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.main-container{
+    position: absolute !important;
+    left: 60%;
+    top: 60px;
 }
 .result-section{
 
@@ -10,7 +21,7 @@ body{
 
     width: 260px;
     height: 100px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .content{
     border:2px solid white;
@@ -19,7 +30,7 @@ body{
     border-bottom-right-radius: 5px;
     width: 260px;
     height: 300px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 .result-section > input{
       width: 97%;
@@ -69,4 +80,12 @@ button{
 }
 button:hover{
     cursor: pointer;
+}
+.top-contant{
+    margin: 100px 0px 0px 140px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+.cal{
+    color: red;
 }
